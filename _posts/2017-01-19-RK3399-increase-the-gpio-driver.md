@@ -10,6 +10,7 @@ keywords: Kernel, Pinctrl, GPIO
 在模块驱动调试的时候会出现电源驱动力不足而导致模块不工作或者速度提不上来的情况，这种情况可以通过修改硬件，用驱动力更强的电源通道或者调整电压，但是最方便的就是通过软件的方式修改相关引脚的驱动能力．
 
 ## 步骤
+
 ### 确定需要增强驱动能力的模块及引脚
 比如：需要增强wifi模块clk引脚的驱动能力，从原理图可以看到：
 ![rockchip gpio driver](https://linjc.github.io/images/posts/rockchip/rk3399_gpio_driver.jpg)  
