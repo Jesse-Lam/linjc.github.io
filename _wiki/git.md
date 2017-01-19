@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: wiki
 title: git 使用技巧
-categories: Tools
+categories: [Tools, git]
 description: git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。个人比较喜欢使用git，这里记录个人使用git常用的技巧．
 keywords: Linux, git
 ---

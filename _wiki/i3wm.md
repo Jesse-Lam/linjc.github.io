@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: wiki
 title: i3-wm 使用 
-categories: Tools
+categories: [Tools, Linux, i3]
 description: i3-wm是一个平铺式桌面管理器，i3-wm的特点是界面简洁，配置清晰明了，使用与vim相似的快捷键，容易操作，让使用者基本可以脱离鼠标工作，还可以让自己工作桌面变得炫酷。
 keywords: Linux, Desktop Management
 ---
