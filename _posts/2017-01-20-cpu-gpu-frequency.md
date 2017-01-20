@@ -21,7 +21,7 @@ keywords: Rockchip, RK3399, CPU, GPU
 
 * 定频（A53是cpu0，A72是cpu4）  
 `echo 1512000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed`  
-`echo 1992000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed`  
+`echo 1992000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_setspeed`  
 
 * 查看当前频率（A53是cpu0，A72是cpu4）  
 `cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq`  
