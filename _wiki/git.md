@@ -65,6 +65,18 @@ git remote add mipi linjz@168.168.0.10:project/3288/tvbox-51/.git //添加一个
 git remote set-url origin firefly@168.168.0.13:project/rockchip/3288/src/firefly-44/kitchen/.git //修改仓库路径
 ```
 
+## 用socks5代理
+
+```
+sslocal -s [ip] -p 443 -k [password]
+http:
+git config --local http.proxy 'socks5://127.0.0.1:1080'
+https:
+git config --local https.proxy 'socks5://127.0.0.1:1080'
+ssh:
+git config --local ssh.proxy 'socks5://127.0.0.1:1080'
+
+
 ## 其他
 
 ```
