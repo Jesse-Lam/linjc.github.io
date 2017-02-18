@@ -75,7 +75,7 @@ https:
 git config --local https.proxy 'socks5://127.0.0.1:1080'
 ssh:
 git config --local ssh.proxy 'socks5://127.0.0.1:1080'
-
+```
 
 ## 其他
 
