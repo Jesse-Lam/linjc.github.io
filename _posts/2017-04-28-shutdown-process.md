@@ -5,13 +5,15 @@ categories: [Android]
 description: 分析android从按下power键到关机的过程
 keywords: Android, Kernel, shutdown
 ---
+
 ## 简介  
 系统关机一般有以下几种情况：  
 1.	正常关机：长按power键，系统弹出关机菜单，选择关机按钮，系统关机；  
 2.	强制关机：长按power键，直至系统掉电；  
 3.	异常关机：断开电源、系统崩溃。  
+
 ## 正常关机  
-### 内核接收power键触发
+### 内核接收power键触发  
 按下power键，内核接收到该消息后，把该事件上报给上层，上层会判断power被按下的时间长度，做出不同的响应，如：短按power时关闭显示进入休眠，长按power的时候弹出关机选择菜单。  
 现在，我们来看看power键的原理图，如下：  
 ![rk3399-power-key1](https://linjc.github.io/images/posts/rockchip/rk3399-power-key1.jpg)  
